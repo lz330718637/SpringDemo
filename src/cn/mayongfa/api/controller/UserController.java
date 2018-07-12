@@ -26,7 +26,7 @@ import cn.mayongfa.service.UserBasisService;
 
 @Controller
 @RequestMapping("/api/user/*")
-public class UserController {
+public class UserController {   
 
 	private static Logger log = Logger.getLogger(UserController.class);
 	@Autowired
